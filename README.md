@@ -11,3 +11,6 @@ You can play a simple game inside a randomly generated world.
 * Monsters move in a realistic fashion incorporating randomness so that their movement rules cannot be exploited. For example, it's difficult to snag them on impassible tiles.
 * If you can get to a monster camp alive then you will disband it and earn a gold bonus. Another camp will appear elsewhere.
 * Object-oriented design allows monsters of different species to chase and attack each other. Monsters can pick up gold to increase their gold value. Monsters can gain experience and level up.
+
+### Requirements
+Overworld requires [NumPy](http://numpy.scipy.org/) and [noiselib](https://code.google.com/p/noiselib/). I don't recommend trying to build them on Windows, but you can do it [with MinGW](http://docs.python.org/install/#gnu-c-cygwin-mingw).
